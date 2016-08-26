@@ -13,6 +13,7 @@ from http://learnopengl.com/ */
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
+#include <Windows.h>
 
 
 void do_movement();
@@ -77,6 +78,7 @@ void InitializeGLEnvironment() {
 
 int main()
 {
+	FreeConsole();
 	GLFWwindow* window = createWindow(1024, 680, "Cube World");
 	InitializeGLEnvironment();
 
