@@ -7,7 +7,7 @@ http://learnopengl.com/
 
 ##Usage
 
-Clone the repository and execute CubeWorld.exe (make sure that the folders Textures/ and Shaders/ are in the same directory).
+Clone or download the repository and execute CubeWorld.exe (make sure that the folders Textures/ and Shaders/ are in the same directory).
 
 
 `WASD` to move `Forward, Left, Backward, Right` respectively. Move the mouse to look in the desired direction of movement.
