@@ -1,6 +1,6 @@
 ### CubeWorld
 
-A simple OpenGL practice project rendering cubes and textures, using custom utility classes I wrote:
+An OpenGL demo project rendering cubes and textures, using custom utility classes I wrote:
 Camera.h and Shader.h (https://github.com/martinlai/OpenGLUtility), and code adapted from these tutorials
 http://learnopengl.com/
 
