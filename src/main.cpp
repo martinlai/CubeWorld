@@ -15,7 +15,6 @@ from http://learnopengl.com/ */
 #include <glm/gtc/type_ptr.hpp>
 #include <Windows.h>
 
-
 void do_movement();
 GLfloat deltaTime = 0.0f;
 GLfloat lastFrame = 0.0f;
@@ -25,7 +24,6 @@ bool keys[1024];
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 
-GLfloat mixture = 0.5f;
 
 
 GLFWwindow* createWindow(const GLint WIDTH, const GLint HEIGHT, const GLchar* title) {
